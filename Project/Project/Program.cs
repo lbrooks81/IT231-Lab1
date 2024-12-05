@@ -20,6 +20,13 @@
             {
                 Console.Write("Incorrect type, please enter an integer: ");
             }
+
+            DoMath(num1, num2);
+        }
+
+        public static void DoMath(int num1, int num2)
+        {
+            Console.WriteLine(num1 + num2);
         }
     }
 }
